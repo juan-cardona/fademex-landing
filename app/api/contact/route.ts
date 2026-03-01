@@ -93,9 +93,14 @@ export async function POST(request: Request) {
       }
 
       // Send admin notification
+      const ccEmails = process.env.CC_EMAILS
+        ? process.env.CC_EMAILS.split(',').map((e) => e.trim()).filter(Boolean)
+        : []
+
       const { data: adminData, error: adminError } = await resend.emails.send({
         from: process.env.EMAIL_FROM || 'Acme <onboarding@resend.dev>',
         to: [process.env.ADMIN_EMAIL || 'admin@fademex.com'],
+        ...(ccEmails.length > 0 && { cc: ccEmails }),
         subject: `Nueva Solicitud: ${empresa} - ${nombre}`,
         html: getAdminNotificationHtml(body),
       })
