@@ -46,6 +46,22 @@ export default function ContactForm() {
         throw new Error(data.error || 'Error al enviar el formulario')
       }
 
+      if (data.userEmailSent === false) {
+        console.error('El mensaje se guardó en la base de datos, pero hubo un error al enviar los correos:', data.debug)
+        setStatus('error')
+        setErrorMessage('Recibimos tu solicitud, pero hubo un problema al enviar el correo de confirmacion. Te contactaremos pronto.')
+
+        // Still clear the form since we got the lead
+        setFormData({
+          nombre: '',
+          empresa: '',
+          telefono: '',
+          email: '',
+          mensaje: ''
+        })
+        return
+      }
+
       setStatus('success')
       setFormData({
         nombre: '',

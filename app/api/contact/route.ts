@@ -75,6 +75,10 @@ export async function POST(request: Request) {
 
     // PRIORITY 2: Send emails (non-critical - if this fails, data is still saved)
     let emailsSent = false
+    let userEmailSent = false
+    let adminEmailSent = false
+    let resendUserError: any = null
+    let resendAdminError: any = null
     const resend = getResendClient()
 
     if (resend) {
@@ -85,10 +89,12 @@ export async function POST(request: Request) {
         subject: '¡Solicitud Recibida! - FADEMEX Energía Solar',
         html: getUserConfirmationHtml(body),
       })
+      resendUserError = userError
 
       if (userError) {
         console.error('[Resend] User confirmation error:', userError)
       } else {
+        userEmailSent = true
         console.log('[Resend] User confirmation sent:', userData)
       }
 
@@ -104,17 +110,20 @@ export async function POST(request: Request) {
         subject: `Nueva Solicitud: ${empresa} - ${nombre}`,
         html: getAdminNotificationHtml(body),
       })
+      resendAdminError = adminError
 
       if (adminError) {
         console.error('[Resend] Admin notification error:', adminError)
       } else {
+        adminEmailSent = true
         console.log('[Resend] Admin notification sent:', adminData)
       }
 
-      // Mark as sent if both succeeded
-      emailsSent = !userError && !adminError
+      emailsSent = userEmailSent || adminEmailSent
     } else {
       console.log('[Resend] Skipping email sending - RESEND_API_KEY not configured')
+      resendUserError = { message: 'RESEND_API_KEY not configured' }
+      resendAdminError = { message: 'RESEND_API_KEY not configured' }
     }
 
     // Return success if either operation succeeded
@@ -123,10 +132,18 @@ export async function POST(request: Request) {
         {
           success: true,
           message: emailsSent
-            ? 'Solicitud enviada correctamente. Revisa tu correo para la confirmación.'
+            ? userEmailSent
+              ? 'Solicitud enviada correctamente. Revisa tu correo para la confirmacion.'
+              : 'Solicitud recibida correctamente. Tuvimos un problema al enviar el correo de confirmacion.'
             : 'Solicitud recibida correctamente. Te contactaremos pronto.',
           leadSaved,
           emailsSent,
+          userEmailSent,
+          adminEmailSent,
+          debug: {
+            userError: resendUserError || null,
+            adminError: resendAdminError || null
+          }
         },
         { status: 200 }
       )
