@@ -91,6 +91,14 @@ export default function Footer() {
                   Noticias
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/aviso-de-privacidad"
+                  className="hover:text-accent-gold transition-colors"
+                >
+                  Aviso de Privacidad
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -102,8 +110,8 @@ export default function Footer() {
                 México
               </li>
               <li className="flex items-center gap-2">
-                <Phone className="w-4 h-4 text-accent-gold" /> +52 (442)
-                123-4567
+                <Phone className="w-4 h-4 text-accent-gold" /> +52 (479)
+                136-9896
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-accent-gold" /> info@fademex.com
@@ -114,11 +122,11 @@ export default function Footer() {
 
         <div className="border-t border-ink/8 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs text-ink-light">
-            © 2025 FADEMEX Energy Systems. Todos los derechos reservados.
+            © 2026 FADEMEX Energy Systems. Todos los derechos reservados.
           </p>
           <div className="flex gap-6 text-xs text-ink-light">
-            <Link href="/" className="hover:text-ink transition-colors">
-              Privacidad
+            <Link href="/aviso-de-privacidad" className="hover:text-ink transition-colors">
+              Aviso de Privacidad
             </Link>
             <Link href="/" className="hover:text-ink transition-colors">
               Términos

@@ -85,8 +85,8 @@ export default function Home() {
                 <p className="flex items-start gap-3 text-base md:text-lg text-ink/70 mb-6 max-w-xl font-normal leading-relaxed">
                   <span className="mt-0.5 w-1.5 h-10 bg-accent-gold rounded-full flex-shrink-0 shadow-[0_2px_6px_rgba(45,47,48,0.25)]"></span>
                   <span>
-                    Sistemas solares de grado industrial, almacenamiento inteligente y
-                    gestión basada en datos.
+                    Instalación de paneles solares industriales, sistemas de almacenamiento
+                    de energía con baterías industriales y consultoría energética para empresas.
                   </span>
                 </p>
               </Reveal>
@@ -178,12 +178,12 @@ export default function Home() {
             }}
           >
             {[
+              'Paneles Solares Industriales',
+              'Peak Shaving Industrial',
+              'Monitoreo Energético 24/7',
+              'Baterías Industriales',
+              'Eficiencia Energética Industrial',
               'ISO 9001 Certified',
-              'Tier 1 Manufacturers',
-              '24/7 Monitoreo NOC',
-              'Zero Export Capability',
-              'Peak Shaving Algorithms',
-              'Estándares UL',
             ].map((tag, i) => (
               <div
                 key={i}
@@ -193,12 +193,12 @@ export default function Home() {
               </div>
             ))}
             {[
+              'Paneles Solares Industriales',
+              'Peak Shaving Industrial',
+              'Monitoreo Energético 24/7',
+              'Baterías Industriales',
+              'Eficiencia Energética Industrial',
               'ISO 9001 Certified',
-              'Tier 1 Manufacturers',
-              '24/7 Monitoreo NOC',
-              'Zero Export Capability',
-              'Peak Shaving Algorithms',
-              'Estándares UL',
             ].map((tag, i) => (
               <div
                 key={`dup-${i}`}
@@ -225,9 +225,10 @@ export default function Home() {
                 Resultados Garantizados.
               </h3>
               <p className="text-ink-light text-lg leading-relaxed">
-                No solo instalamos paneles; desplegamos infraestructura
-                energética crítica diseñada para durar décadas bajo condiciones
-                extremas.
+                Empresa de energía solar industrial con proyectos solares industriales
+                llave en mano. Instalación de sistemas fotovoltaicos industriales,
+                eficiencia energética industrial y gestión energética diseñada para
+                durar décadas bajo condiciones extremas.
               </p>
             </Reveal>
           </div>
@@ -237,14 +238,14 @@ export default function Home() {
               {
                 title: '30 Años de Garantía',
                 subtitle: 'Generation Performance',
-                desc: 'Aseguramos contractualmente que tu sistema producirá energía por encima del 85% incluso después de tres décadas de operación continua.',
+                desc: 'Aseguramos contractualmente que tu sistema de paneles solares industriales producirá energía por encima del 85% incluso después de tres décadas de operación continua.',
                 icon: <Shield className="w-5 h-5" />,
                 metric: '30yr',
               },
               {
                 title: 'Financiamiento 0%',
                 subtitle: 'Direct Capital Access',
-                desc: 'Elimina la barrera de entrada. Modelos de financiamiento directo que permiten que el ahorro energético pague la infraestructura.',
+                desc: 'Elimina la barrera de entrada. Modelos de financiamiento directo que permiten que el ahorro energético industrial pague la infraestructura y la reducción de consumo eléctrico industrial.',
                 icon: <BarChart3 className="w-5 h-5" />,
                 metric: '0% APR',
               },
@@ -258,7 +259,7 @@ export default function Home() {
               {
                 title: 'Plug & Play',
                 subtitle: 'Seamless Integration',
-                desc: 'Interconexión sin fricción con la red de CFE. Nos encargamos de toda la gestoría, trámites y certificación UVIE.',
+                desc: 'Interconexión sin fricción con la red de CFE para tu instalación solar comercial e industrial. Nos encargamos de toda la gestoría, trámites y certificación UVIE.',
                 icon: <Activity className="w-5 h-5" />,
                 metric: '100%',
               },
@@ -308,8 +309,9 @@ export default function Home() {
                 Energía Solar de Grado Industrial
               </h3>
               <p className="text-ink/70 text-lg">
-                Explora nuestras soluciones integrales de energía renovable
-                diseñadas para empresas que buscan eficiencia y sostenibilidad.
+                Soluciones integrales en energía solar para naves industriales,
+                sistemas fotovoltaicos para empresas e instalación solar comercial e industrial.
+                Ahorro energético industrial con monitoreo solar y sistemas inteligentes de energía.
               </p>
             </Reveal>
           </div>
@@ -318,40 +320,40 @@ export default function Home() {
             {[
               {
                 title: 'Soluciones',
-                subtitle: 'Ventajas Competitivas',
-                desc: 'Garantía de 30 años, financiamiento 0%, mantenimiento integral y plug & play.',
+                subtitle: 'Paneles Solares Industriales',
+                desc: 'Instalación de paneles solares industriales con garantía de 30 años. Energía solar para naves industriales y paneles solares para fábricas.',
                 icon: <Shield />,
                 href: '/soluciones',
                 color: 'from-highlight/40 to-transparent',
               },
               {
                 title: 'Servicios',
-                subtitle: 'Catálogo Completo',
-                desc: 'Energía solar, baterías, tecnología lumínica y proyectos especiales.',
+                subtitle: 'Almacenamiento y Baterías',
+                desc: 'Baterías industriales de energía, sistemas de almacenamiento de energía industrial, baterías solares industriales y continuidad operativa.',
                 icon: <Zap />,
                 href: '/servicios',
                 color: 'from-ink/20 to-transparent',
               },
               {
                 title: 'Tecnología',
-                subtitle: 'Especificaciones Técnicas',
-                desc: 'Componentes Tier 1, monitoreo 24/7 y certificaciones internacionales.',
+                subtitle: 'Monitoreo Energético Industrial',
+                desc: 'Monitoreo solar industrial, sistemas inteligentes de energía y gestión de energía industrial con componentes Tier 1.',
                 icon: <Cpu />,
                 href: '/tecnologia',
                 color: 'from-accent-gold/40 to-transparent',
               },
               {
                 title: 'Proyectos',
-                subtitle: 'Casos de Éxito',
-                desc: 'Proyectos instalados en toda la República Mexicana.',
+                subtitle: 'Proyectos Solares Industriales',
+                desc: 'Proyectos de instalación solar comercial e industrial en toda la República Mexicana.',
                 icon: <MapPin />,
                 href: '/proyectos',
                 color: 'from-ink/15 to-transparent',
               },
               {
                 title: 'Ingeniería',
-                subtitle: 'Metodología',
-                desc: 'Proceso certificado en 4 fases: auditoría, diseño, procura y ejecución.',
+                subtitle: 'Consultoría Energética',
+                desc: 'Consultoría energética industrial, análisis energético y eficiencia energética para empresas con proceso certificado.',
                 icon: <Wrench />,
                 href: '/ingenieria',
                 color: 'from-highlight/25 to-transparent',
@@ -359,7 +361,7 @@ export default function Home() {
               {
                 title: 'Contacto',
                 subtitle: 'Agenda Consultoría',
-                desc: 'Habla con nuestros ingenieros y obtén una propuesta personalizada.',
+                desc: 'Habla con nuestros ingenieros y obtén una propuesta personalizada para tu proyecto solar industrial.',
                 icon: <Activity />,
                 href: '/contacto',
                 color: 'from-accent-gold/40 to-transparent',
@@ -408,13 +410,13 @@ export default function Home() {
             <Reveal>
               <div className="text-center">
                 <div className="text-4xl md:text-5xl font-extrabold text-ink mb-2">8.4</div>
-                <div className="text-sm text-ink/60">MW Instalados</div>
+                <div className="text-sm text-ink/60">MW en Sistemas Solares Industriales</div>
               </div>
             </Reveal>
             <Reveal delay={100}>
               <div className="text-center">
                 <div className="text-4xl md:text-5xl font-extrabold text-ink mb-2">150+</div>
-                <div className="text-sm text-ink/60">Proyectos Completados</div>
+                <div className="text-sm text-ink/60">Proyectos Solares Industriales</div>
               </div>
             </Reveal>
             <Reveal delay={200}>
@@ -426,7 +428,7 @@ export default function Home() {
             <Reveal delay={300}>
               <div className="text-center">
                 <div className="text-4xl md:text-5xl font-extrabold text-ink mb-2">24/7</div>
-                <div className="text-sm text-ink/60">Monitoreo NOC</div>
+                <div className="text-sm text-ink/60">Monitoreo Solar Industrial</div>
               </div>
             </Reveal>
           </div>
@@ -445,7 +447,9 @@ export default function Home() {
                 Proyectos en Toda la República
               </h3>
               <p className="text-ink/70 text-lg">
-                Proyectos industriales y comerciales a lo largo de México.
+                Instalación de paneles solares industriales y proyectos solares
+                industriales a lo largo de México. Energía solar para naves industriales
+                y paneles solares para fábricas.
               </p>
             </Reveal>
           </div>

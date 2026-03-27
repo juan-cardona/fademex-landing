@@ -92,7 +92,7 @@ export default function ContactoPage() {
                     <div>
                       <h3 className="text-ink font-bold mb-1">Teléfono</h3>
                       <p className="text-ink-light text-sm">
-                        +52 (442) 123-4567
+                        +52 (479) 136-9896
                         <br />
                         Lunes a Viernes
                       </p>
@@ -172,7 +172,7 @@ export default function ContactoPage() {
               </p>
               <div className="flex gap-4 justify-center flex-wrap">
                 <a
-                  href="tel:+524421234567"
+                  href="tel:+524791369896"
                   className="px-8 py-4 bg-accent-gold hover:bg-accent-gold-dark text-ink font-bold rounded-xl transition-all shadow-button hover:shadow-button-hover"
                 >
                   Llamar Ahora
