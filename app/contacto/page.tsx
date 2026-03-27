@@ -45,8 +45,9 @@ export default function ContactoPage() {
 
             <Reveal delay={200}>
               <p className="text-lg md:text-xl text-ink-light max-w-3xl mx-auto font-normal leading-relaxed">
-                Agenda una sesión técnica con nuestros ingenieros senior.
-                Te responderemos en menos de 24 horas.
+                Agenda una consultoría energética industrial con nuestros ingenieros senior.
+                Proyectos solares industriales, instalación de paneles solares industriales
+                y sistemas fotovoltaicos para empresas. Te responderemos en menos de 24 horas.
               </p>
             </Reveal>
           </div>
@@ -147,10 +148,10 @@ export default function ContactoPage() {
 
                   <div className="mb-8 relative z-10">
                     <h2 className="text-2xl md:text-3xl font-bold text-ink mb-4">
-                      Solicita una Consultoría
+                      Solicita una Consultoría Energética
                     </h2>
                     <p className="text-ink-light">
-                      Completa el formulario y un ingeniero se pondrá en contacto contigo.
+                      Completa el formulario para consultoría energética empresas y un ingeniero se pondrá en contacto contigo.
                     </p>
                   </div>
 
@@ -164,11 +165,11 @@ export default function ContactoPage() {
           <Reveal delay={500}>
             <div className="glass-panel p-10 md:p-12 text-center">
               <h3 className="text-2xl md:text-3xl font-bold text-ink mb-4">
-                ¿Tienes un proyecto grande o necesitas soporte técnico?
+                ¿Tienes un proyecto solar industrial grande o necesitas soporte técnico?
               </h3>
               <p className="text-ink-light mb-8 max-w-2xl mx-auto">
-                Para proyectos de más de 5 MW o soporte técnico urgente,
-                contáctanos directamente al departamento de ingeniería.
+                Para proyectos solares industriales de más de 5 MW, instalación de paneles solares industriales
+                o soporte técnico urgente, contáctanos directamente al departamento de ingeniería.
               </p>
               <div className="flex gap-4 justify-center flex-wrap">
                 <a

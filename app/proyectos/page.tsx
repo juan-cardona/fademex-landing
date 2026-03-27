@@ -46,8 +46,9 @@ export default function ProyectosPage() {
 
             <Reveal delay={200}>
               <p className="text-lg md:text-xl text-ink-light mb-10 max-w-3xl mx-auto leading-relaxed">
-                Monitoreamos nuestros proyectos desde
-                nuestro Centro de Control en tiempo real.
+                Proyectos solares industriales monitoreados con monitoreo solar industrial
+                desde nuestro Centro de Control en tiempo real. Instalación de paneles solares
+                industriales en toda la República Mexicana.
               </p>
             </Reveal>
           </div>
@@ -64,7 +65,7 @@ export default function ProyectosPage() {
                   <Zap className="w-6 h-6 text-accent-gold-dark" />
                 </div>
                 <div className="text-3xl md:text-4xl font-bold text-ink mb-2">Gran Escala</div>
-                <div className="text-sm text-ink-light">Capacidad Instalada</div>
+                <div className="text-sm text-ink-light">Sistemas Solares Industriales Instalados</div>
               </div>
             </Reveal>
 
@@ -74,7 +75,7 @@ export default function ProyectosPage() {
                   <BarChart3 className="w-6 h-6 text-accent-gold-dark" />
                 </div>
                 <div className="text-3xl md:text-4xl font-bold text-ink mb-2">150+</div>
-                <div className="text-sm text-ink-light">Proyectos Completados</div>
+                <div className="text-sm text-ink-light">Proyectos Solares Industriales</div>
               </div>
             </Reveal>
 
@@ -104,8 +105,8 @@ export default function ProyectosPage() {
                   Mapa de Proyectos en Operación
                 </h3>
                 <p className="text-ink-light max-w-lg">
-                  Nuestros proyectos están distribuidos estratégicamente en todo México,
-                  con monitoreo continuo desde nuestro Centro de Operaciones.
+                  Nuestros proyectos solares industriales están distribuidos estratégicamente en todo México,
+                  con monitoreo energético industrial continuo desde nuestro Centro de Operaciones.
                 </p>
               </Reveal>
             </div>
@@ -184,7 +185,7 @@ export default function ProyectosPage() {
                 ¿Listo para ser parte de nuestra red?
               </h3>
               <p className="text-ink-light mb-8 max-w-2xl mx-auto">
-                Únete a más de 150 empresas que ya confiaron en FADEMEX para transformar su infraestructura energética.
+                Únete a más de 150 empresas que ya confiaron en FADEMEX, empresa de energía solar industrial, para transformar su infraestructura con paneles solares para fábricas y energía solar para naves industriales.
               </p>
               <div className="flex gap-4 justify-center flex-wrap">
                 <Link

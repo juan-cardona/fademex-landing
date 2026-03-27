@@ -27,13 +27,14 @@ export default function ServiciosPage() {
         <div className="container mx-auto px-6 relative z-10 text-center">
           <Reveal>
             <span className="inline-block text-sm text-accent-gold font-semibold uppercase tracking-widest mb-3">
-              Catálogo de Soluciones Energéticas 2025
+              Catálogo de Soluciones Energéticas 2026
             </span>
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-ink mb-6">
               CATÁLOGO DE SERVICIOS
             </h1>
             <p className="text-lg md:text-xl text-ink-light max-w-3xl mx-auto">
-              Consultoría y Energía Solar 360°
+              Consultoría energética empresas, instalación de paneles solares industriales,
+              baterías industriales de energía y sistemas de almacenamiento de energía industrial.
             </p>
           </Reveal>
         </div>
@@ -61,14 +62,14 @@ export default function ServiciosPage() {
                     ENERGÍA QUE TRANSFORMA.
                   </h4>
                   <p className="text-ink-light leading-relaxed mb-4">
-                    Somos Fademex. Una empresa mexicana especializada en paneles
-                    solares y consultoría energética 360°, ofrecemos soluciones
-                    integrales para optimizar el consumo eléctrico en empresas y
-                    fomentar el uso de energías limpias.
+                    Somos FADEMEX. Una empresa de energía solar industrial especializada en
+                    paneles solares industriales y consultoría energética 360°, ofrecemos soluciones
+                    integrales para la reducción de consumo eléctrico industrial y
+                    fomentar el ahorro energético industrial con energías limpias.
                   </p>
                   <p className="text-ink-light leading-relaxed">
-                    Nos especializamos en hacer análisis energéticos en las empresas,
-                    cada vez acercándonos más a ser referentes de sostenibilidad y
+                    Nos especializamos en análisis energético industrial y gestión energética industrial,
+                    cada vez acercándonos más a ser referentes de eficiencia energética industrial y
                     energía limpia en México.
                   </p>
                 </div>
@@ -80,12 +81,12 @@ export default function ServiciosPage() {
                     APLICACIONES DE ENERGÍA SOLAR
                   </h4>
                   <p className="text-ink-light leading-relaxed mb-6">
-                    Impulsamos la transición energética de las empresas a través de
-                    la venta e instalación de paneles solares de alto rendimiento.
-                    Más que un proveedor, somos una consultoría energética 360° que
+                    Impulsamos la transición energética con instalación de sistemas fotovoltaicos
+                    industriales y sistemas fotovoltaicos para empresas de alto rendimiento.
+                    Más que un proveedor, somos una consultoría energética industrial que
                     analiza a fondo el consumo y las oportunidades de cada cliente
-                    para diseñar soluciones personalizadas que maximizan el ahorro,
-                    optimizan la eficiencia y contribuyen a un futuro más sustentable.
+                    para diseñar soluciones de energía solar para naves industriales y
+                    paneles solares para fábricas que maximizan el ahorro energético industrial.
                   </p>
                   <p className="text-sm text-accent-gold">
                     A continuación te mostramos los servicios que ofrecemos en
@@ -98,10 +99,10 @@ export default function ServiciosPage() {
             {/* Solar Services Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
               {[
-                'CONSULTORÍA ENERGÉTICA',
-                'INSTALACIÓN DE PANELES SOLARES',
-                'MONITOREO Y SISTEMAS INTELIGENTES',
-                'FINANCIAMIENTO Y GESTIÓN ENERGÉTICA',
+                'CONSULTORÍA ENERGÉTICA INDUSTRIAL',
+                'INSTALACIÓN DE PANELES SOLARES INDUSTRIALES',
+                'MONITOREO ENERGÉTICO INDUSTRIAL',
+                'GESTIÓN DE ENERGÍA INDUSTRIAL',
               ].map((service, i) => (
                 <Reveal key={i} delay={i * 100}>
                   <div className="bg-canvas-alt border border-ink/8 rounded-2xl p-6 shadow-card hover:shadow-card-hover transition-all group">
@@ -271,26 +272,26 @@ export default function ServiciosPage() {
               <Reveal delay={100}>
                 <div className="bg-gradient-to-br from-accent-gold/10 to-transparent border border-accent-gold/30 rounded-2xl p-8">
                   <h4 className="text-2xl font-bold text-ink mb-6">
-                    SISTEMAS DE ALMACENAMIENTO DE ENERGÍA
+                    SISTEMAS DE ALMACENAMIENTO DE ENERGÍA INDUSTRIAL
                   </h4>
                   <div className="space-y-6">
                     <div>
                       <h5 className="text-sm font-bold text-accent-gold uppercase mb-2">
-                        REDUCCIÓN DE PICOS DE DEMANDA (PEAK SHAVING - TIME SHIFTING)
+                        REDUCCIÓN DE PICOS DE DEMANDA — PEAK SHAVING INDUSTRIAL Y TIME SHIFTING ENERGÍA
                       </h5>
                       <p className="text-ink/80 text-sm leading-relaxed">
-                        Las baterías almacenan energía en períodos de bajo consumo y
-                        la liberan en horarios punta, reduciendo costos operativos y
-                        evitando cargos por alta demanda.
+                        Las baterías industriales de energía almacenan energía en períodos de bajo consumo y
+                        la liberan en horarios punta, logrando reducción de consumo eléctrico industrial
+                        y evitando cargos por alta demanda.
                       </p>
                     </div>
                     <div>
                       <h5 className="text-sm font-bold text-accent-gold uppercase mb-2">
-                        CONTINUIDAD OPERATIVA
+                        CONTINUIDAD OPERATIVA ENERGÍA
                       </h5>
                       <p className="text-ink/80 text-sm leading-relaxed">
-                        Las baterías aseguran operación continua al activar energía de
-                        respaldo inmediatamente ante cortes, protegiendo procesos
+                        Las baterías para respaldo industrial aseguran operación continua al activar
+                        baterías solares industriales inmediatamente ante cortes, protegiendo procesos
                         sensibles y evitando tiempos de inactividad.
                       </p>
                     </div>
@@ -326,10 +327,10 @@ export default function ServiciosPage() {
                     </p>
                   </div>
                   <h4 className="text-xl font-bold text-ink mb-4">
-                    BATERÍAS COMERCIALES E INDUSTRIALES
+                    BATERÍAS INDUSTRIALES DE ENERGÍA
                   </h4>
                   <p className="text-ink/80 mb-6">
-                    Almacenamiento inteligente y limpio para energías renovables.
+                    Sistemas de almacenamiento de energía industrial, inteligente y limpio para energías renovables.
                   </p>
                   <div className="space-y-2 text-sm">
                     {[

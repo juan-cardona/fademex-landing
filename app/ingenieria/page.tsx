@@ -44,8 +44,9 @@ export default function IngenieriaPage() {
 
             <Reveal delay={200}>
               <p className="text-lg md:text-xl text-ink-light mb-10 max-w-3xl mx-auto leading-relaxed">
-                Un proceso estructurado y probado para garantizar la máxima eficiencia,
-                seguridad y retorno de inversión en cada proyecto.
+                Consultoría energética industrial con un proceso estructurado y probado para garantizar
+                eficiencia energética industrial, ahorro energético industrial y máximo retorno de inversión
+                en cada proyecto solar industrial.
               </p>
             </Reveal>
           </div>
@@ -68,8 +69,8 @@ export default function IngenieriaPage() {
             {[
               {
                 step: '01',
-                title: 'Auditoría Energética',
-                desc: 'Análisis de patrones de consumo (Código de Red 2.0), termografía y modelado de sombras.',
+                title: 'Auditoría y Análisis Energético Industrial',
+                desc: 'Análisis energético industrial de patrones de consumo (Código de Red 2.0), termografía y modelado de sombras para reducción de consumo eléctrico industrial.',
                 details: [
                   'Análisis histórico de recibos CFE',
                   'Medición en sitio con analizadores de red',
@@ -79,8 +80,8 @@ export default function IngenieriaPage() {
               },
               {
                 step: '02',
-                title: 'Ingeniería & Diseño',
-                desc: 'Diseño CAD/BIM de la estructura, selección de inversores y cálculo de retorno de inversión.',
+                title: 'Ingeniería & Diseño de Sistemas Solares Industriales',
+                desc: 'Diseño CAD/BIM para instalación de sistemas fotovoltaicos industriales, selección de inversores y cálculo de retorno de inversión.',
                 details: [
                   'Diseño estructural certificado',
                   'Selección óptima de componentes',
@@ -102,7 +103,7 @@ export default function IngenieriaPage() {
               {
                 step: '04',
                 title: 'Ejecución & Comisionamiento',
-                desc: 'Instalación certificada bajo estándares NOM-001-SEDE. Pruebas de aislamiento y encendido.',
+                desc: 'Instalación de paneles solares industriales certificada bajo estándares NOM-001-SEDE. Pruebas de aislamiento y encendido.',
                 details: [
                   'Instalación por personal certificado',
                   'Pruebas eléctricas completas',
@@ -189,9 +190,9 @@ export default function IngenieriaPage() {
               <Reveal delay={300}>
                 <div className="bg-ink/5 border border-ink/10 rounded-xl p-6 hover:border-accent-gold/30 transition-all text-center">
                   <div className="text-4xl font-bold text-accent-gold mb-2">24/7</div>
-                  <h4 className="text-lg font-bold text-ink mb-2">Monitoreo NOC</h4>
+                  <h4 className="text-lg font-bold text-ink mb-2">Monitoreo Solar Industrial</h4>
                   <p className="text-ink/70 text-sm">
-                    Centro de control operando 24/7 con alertas en tiempo real
+                    Centro de monitoreo energético industrial operando 24/7 con sistemas inteligentes de energía y alertas en tiempo real
                   </p>
                 </div>
               </Reveal>
@@ -205,8 +206,8 @@ export default function IngenieriaPage() {
                 ¿Listo para comenzar tu proyecto?
               </h3>
               <p className="text-ink/70 mb-8 max-w-2xl mx-auto">
-                Agenda una sesión técnica con nuestros ingenieros senior para evaluar
-                tu instalación y diseñar una solución a la medida.
+                Agenda una consultoría energética empresas con nuestros ingenieros senior para evaluar
+                tu gestión energética industrial y diseñar una solución de eficiencia energética industrial a la medida.
               </p>
               <div className="flex gap-4 justify-center flex-wrap">
                 <Link

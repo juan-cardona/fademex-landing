@@ -68,8 +68,8 @@ export default function TecnologiaPage() {
 
             <Reveal delay={200}>
               <p className="text-lg md:text-xl text-ink-light mb-10 max-w-3xl mx-auto leading-relaxed">
-                Utilizamos componentes Tier 1 clasificados por Bloomberg NEF.
-                Cada inversor, panel y estructura es auditada para cumplir
+                Sistemas fotovoltaicos para empresas con componentes Tier 1 clasificados por Bloomberg NEF.
+                Monitoreo energético industrial 24/7, sistemas inteligentes de energía y gestión de energía industrial
                 con estándares internacionales IEC y UL.
               </p>
             </Reveal>
@@ -87,11 +87,11 @@ export default function TecnologiaPage() {
             }}
           >
             {[
-              'ISO 9001 Certified',
-              'Tier 1 Manufacturers',
-              '24/7 Monitoreo NOC',
-              'Zero Export Capability',
-              'Peak Shaving Algorithms',
+              'Monitoreo Solar Industrial',
+              'Sistemas Inteligentes de Energía',
+              'Peak Shaving Industrial',
+              'Gestión de Energía Industrial',
+              'Monitoreo Energético 24/7',
               'Estándares UL',
             ].map((tag, i) => (
               <div
@@ -102,11 +102,11 @@ export default function TecnologiaPage() {
               </div>
             ))}
             {[
-              'ISO 9001 Certified',
-              'Tier 1 Manufacturers',
-              '24/7 Monitoreo NOC',
-              'Zero Export Capability',
-              'Peak Shaving Algorithms',
+              'Monitoreo Solar Industrial',
+              'Sistemas Inteligentes de Energía',
+              'Peak Shaving Industrial',
+              'Gestión de Energía Industrial',
+              'Monitoreo Energético 24/7',
               'Estándares UL',
             ].map((tag, i) => (
               <div
@@ -222,10 +222,10 @@ export default function TecnologiaPage() {
                 <Reveal delay={300}>
                   <div className="bg-ink/5 border border-ink/10 rounded-xl p-6 hover:border-accent-gold/30 transition-all">
                     <h4 className="text-lg font-bold text-ink mb-3">
-                      Monitoreo en Tiempo Real
+                      Monitoreo Solar Industrial en Tiempo Real
                     </h4>
                     <p className="text-ink/70 text-sm leading-relaxed">
-                      Sistema de monitoreo 24/7 con alertas automáticas y análisis predictivo de fallas.
+                      Sistema de monitoreo energético industrial 24/7 con alertas automáticas y análisis predictivo de fallas para gestión de energía industrial.
                     </p>
                   </div>
                 </Reveal>

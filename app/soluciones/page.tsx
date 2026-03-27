@@ -45,9 +45,9 @@ export default function SolucionesPage() {
 
             <Reveal delay={200}>
               <p className="text-lg md:text-xl text-ink-light mb-10 max-w-3xl mx-auto font-normal leading-relaxed">
-                No solo instalamos paneles; desplegamos infraestructura
-                energética crítica diseñada para durar décadas bajo condiciones
-                extremas.
+                Empresa de energía solar industrial con instalación de paneles solares industriales
+                y sistemas fotovoltaicos para empresas. Infraestructura energética diseñada para
+                durar décadas bajo condiciones extremas.
               </p>
             </Reveal>
 
@@ -79,14 +79,14 @@ export default function SolucionesPage() {
               {
                 title: '30 Años de Garantía',
                 subtitle: 'Generation Performance',
-                desc: 'Aseguramos contractualmente que tu sistema producirá energía por encima del 85% incluso después de tres décadas de operación continua.',
+                desc: 'Aseguramos contractualmente que tu sistema de paneles solares industriales producirá energía por encima del 85% incluso después de tres décadas de operación continua.',
                 icon: <Shield className="w-5 h-5" />,
                 metric: '30yr',
               },
               {
                 title: 'Financiamiento 0%',
                 subtitle: 'Direct Capital Access',
-                desc: 'Elimina la barrera de entrada. Modelos de financiamiento directo que permiten que el ahorro energético pague la infraestructura.',
+                desc: 'Elimina la barrera de entrada. Modelos de financiamiento directo que permiten que el ahorro energético industrial pague la infraestructura de energía solar para naves industriales.',
                 icon: <BarChart3 className="w-5 h-5" />,
                 metric: '0% APR',
               },
@@ -100,7 +100,7 @@ export default function SolucionesPage() {
               {
                 title: 'Plug & Play',
                 subtitle: 'Seamless Integration',
-                desc: 'Interconexión sin fricción con la red de CFE. Nos encargamos de toda la gestoría, trámites y certificación UVIE.',
+                desc: 'Interconexión sin fricción con la red de CFE para tu instalación solar comercial e industrial. Nos encargamos de toda la gestoría, trámites y certificación UVIE.',
                 icon: <Activity className="w-5 h-5" />,
                 metric: '100%',
               },
@@ -143,7 +143,7 @@ export default function SolucionesPage() {
                 ¿Listo para transformar tu infraestructura energética?
               </h3>
               <p className="text-ink-light mb-8 max-w-2xl mx-auto">
-                Agenda una sesión técnica con nuestros ingenieros para evaluar tu consumo y diseñar una solución personalizada.
+                Agenda una consultoría energética industrial con nuestros ingenieros para evaluar tu consumo y diseñar un proyecto solar industrial personalizado.
               </p>
               <div className="flex gap-4 justify-center flex-wrap">
                 <Link
